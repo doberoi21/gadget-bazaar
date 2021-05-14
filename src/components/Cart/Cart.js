@@ -13,7 +13,7 @@ const Cart = () => {
       <div className="container-card">
         <div className="card container">
           <div className="imgBx">
-            <img src={ear} style={{ height: "200px", padding: "10px" }} />
+            <img src={ear} style={{ height: "360px", padding: "10px" }} />
           </div>
           <div className="content">
             <div className="cart-header">
@@ -79,7 +79,7 @@ const Cart = () => {
       {cart.cartItems.length ? (
         <>
           <h2 style={{ textAlign: "center" }}>Your cart is ready</h2>
-          cart.cartItems.map(cartListItem)
+          {cart.cartItems.map(cartListItem)}
         </>
       ) : (
         <div
