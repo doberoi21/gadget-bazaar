@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration:none ;
+    list-style: none;
+}
+.contact-foot{
+    background-color: #012f78;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 3% 1%;
+    margin-top: 2.1%;
+}
+
+.ig{
+    color:white;
+    font-size: 15px;
+}

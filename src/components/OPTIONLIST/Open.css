@@ -1,0 +1,32 @@
+*{
+    text-decoration:none ;
+    color: black;
+
+}
+.main{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:1%  0;
+    background:whitesmoke;
+}
+.mobile img{
+    position: relative;
+    left:15%;
+    padding: 4%;
+}
+.tab img{
+    position: relative;
+    padding: 4%;
+    right: 2%;
+}
+.tv img{
+    position: relative;
+    padding: 4%;
+    left:12%;
+}
+.earphone img{
+    position: relative;
+    padding: 4%;
+    left:12%;
+}
